@@ -1,0 +1,14 @@
+//LAST UPDATED JANUARY 13, 2020 AT 4:02 PM
+//Edited file "hmwk0_profile.txt"
+//Created folder named hmwk0 based on image accompanying Step 3 of Part 2.3 of Homework 0
+//Renamed file "hmwk0_profile.txt" to "Profile.txt" based on image accompanying Step 3 of Part 2.3 of Homework 0
+——Student Profile——
+
+Name: Emmeline Nettles
+
+Major/minor: International Affairs, Computer Science/Chinese
+
+Programming experience: Block-coding(MIT Scratch, Code.org, Codecademy), 4 years; HTML/CSS(Notepad++), 2 years; Java(Oracle), 2 years; C#(Visual Studio), 2 years; Javascript(Code.org, Notepad++), 1 year - all at high school level
+
+What do you expect to learn in this course? I expect to be able to code in C++, refamiliarize and grow my knowledge of working with Visual Studio/IDE, and gain confidence and understanding in my coding.
+
