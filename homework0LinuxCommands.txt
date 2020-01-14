@@ -1,0 +1,82 @@
+vocstartsoft:~/environment $ ls
+hmwk0  README.md
+vocstartsoft:~/environment $ mkdir rec2
+vocstartsoft:~/environment $ ls
+hmwk0  README.md  rec2
+vocstartsoft:~/environment $ cd rec2
+vocstartsoft:~/environment/rec2 $ ls
+vocstartsoft:~/environment/rec2 $ cd ..
+vocstartsoft:~/environment $ cd rec2
+vocstartsoft:~/environment/rec2 $ cd ..
+vocstartsoft:~/environment $ mkdir rec1
+vocstartsoft:~/environment $ cd rec2
+vocstartsoft:~/environment/rec2 $ ls hello1300.cpp
+hello1300.cpp
+vocstartsoft:~/environment/rec2 $ cp hello1300.cpp hello1300v2.cpp
+vocstartsoft:~/environment/rec2 $ ls
+hello1300.cpp  hello1300v2.cpp
+vocstartsoft:~/environment/rec2 $ cp ~/environment/rec2/hello1300.cpp ~/environment/rec1/hello1300vs3.cpp
+vocstartsoft:~/environment/rec2 $ mv hello1300.cpp ..
+vocstartsoft:~/environment/rec2 $ cd ..
+vocstartsoft:~/environment $ mv hello1300.cpp ~/environment/rec1/
+vocstartsoft:~/environment $ cd rec1
+vocstartsoft:~/environment/rec1 $ ls
+hello1300.cpp  hello1300vs3.cpp
+vocstartsoft:~/environment/rec1 $ cd ..
+vocstartsoft:~/environment $ cd hmwk0
+vocstartsoft:~/environment/hmwk0 $ helloWorld.cpp ..
+bash: helloWorld.cpp: command not found
+vocstartsoft:~/environment/hmwk0 $ mv helloWorld.cpp ..
+vocstartsoft:~/environment/hmwk0 $ mv helloWorld.cpp.o ..
+vocstartsoft:~/environment/hmwk0 $ mv Profile.txt ..
+vocstartsoft:~/environment/hmwk0 $ zip test_Files.zip hello1300.cpp hello1300vs3.cpp
+        zip warning: name not matched: hello1300.cpp
+        zip warning: name not matched: hello1300vs3.cpp
+
+zip error: Nothing to do! (test_Files.zip)
+vocstartsoft:~/environment/hmwk0 $ cd ..
+vocstartsoft:~/environment $ cd rec1
+vocstartsoft:~/environment/rec1 $ zip test_Files.zip hello1300.cpp hello1300vs3.cpp
+  adding: hello1300.cpp (deflated 12%)
+  adding: hello1300vs3.cpp (deflated 12%)
+vocstartsoft:~/environment/rec1 $ ls
+hello1300.cpp  hello1300vs3.cpp  test_Files.zip
+vocstartsoft:~/environment/rec1 $ mv test_Files.zip ..
+vocstartsoft:~/environment/rec1 $ cd ..
+vocstartsoft:~/environment $ ls
+helloWorld.cpp  helloWorld.cpp.o  hmwk0  Profile.txt  README.md  rec1  rec2  test_Files.zip
+vocstartsoft:~/environment $ mv test_Files.zip ~/environment/rec2/
+vocstartsoft:~/environment $ cd rec2
+vocstartsoft:~/environment/rec2 $ ls
+hello1300v2.cpp  test_Files.zip
+vocstartsoft:~/environment/rec2 $ unzip test_Files.zip
+Archive:  test_Files.zip
+  inflating: hello1300.cpp           
+  inflating: hello1300vs3.cpp        
+vocstartsoft:~/environment/rec2 $ ls
+hello1300.cpp  hello1300v2.cpp  hello1300vs3.cpp  test_Files.zip
+vocstartsoft:~/environment/rec2 $ cd ..
+vocstartsoft:~/environment $ mv ~/environment/rec2 ..
+vocstartsoft:~/environment $ ls
+helloWorld.cpp  helloWorld.cpp.o  hmwk0  Profile.txt  README.md  rec1
+vocstartsoft:~/environment $ mkdir rec2
+vocstartsoft:~/environment $ cd rec1
+vocstartsoft:~/environment/rec1 $ ls
+hello1300.cpp  hello1300vs3.cpp
+vocstartsoft:~/environment/rec1 $ cp ~/environment/rec1/hello1300.cpp ~/environment/rec2/hello1300vs2.cpp
+vocstartsoft:~/environment/rec1 $ zip text_Files.zip hello1300.cpp hello1300vs3.cpp
+  adding: hello1300.cpp (deflated 12%)
+  adding: hello1300vs3.cpp (deflated 12%)
+vocstartsoft:~/environment/rec1 $ mv text_Files.zip ..
+vocstartsoft:~/environment/rec1 $ cd ..
+vocstartsoft:~/environment $ mv text_Files.zip ~/environment/rec2/
+vocstartsoft:~/environment $ cd rec2
+vocstartsoft:~/environment/rec2 $ ls
+hello1300vs2.cpp  text_Files.zip
+vocstartsoft:~/environment/rec2 $ unzip text_Files.zip
+Archive:  text_Files.zip
+  inflating: hello1300.cpp           
+  inflating: hello1300vs3.cpp        
+vocstartsoft:~/environment/rec2 $ ls
+hello1300.cpp  hello1300vs2.cpp  hello1300vs3.cpp  text_Files.zip
+vocstartsoft:~/environment/rec2 $ 
